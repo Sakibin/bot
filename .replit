@@ -1,0 +1,22 @@
+run = "npm start"
+entrypoint = "main.sh"
+
+[[ports]]
+localPort = 80
+externalPort = 3000
+
+[[ports]]
+localPort = 36175
+externalPort = 80
+
+[[ports]]
+localPort = 41907
+externalPort = 3001
+
+[[ports]]
+localPort = 46399
+externalPort = 3003
+
+[[ports]]
+localPort = 46727
+externalPort = 3002
